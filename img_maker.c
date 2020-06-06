@@ -16,8 +16,8 @@ struct chip {
 	/* {"rk31", 0x70}, */
 	{"rk31", 0x33313241}, /* default to RK3128 */
 	{"rk32", 0x80},
-	{"rk33", 0x33333043}, /* default to RK3399 */
-	{NULL, 0x00},
+	{"rk33", 0x33323248}, /* default to RK3328 */
+	{NULL, 0x33323248},
 };
 
 unsigned int chiptype = 0x80;	/* default to RK3288 */
