@@ -1,0 +1,4 @@
+#!/bin/sh
+img_unpack $1 $1.tmp
+afptool -unpack $1.tmp/update.img $2
+rm -rf $1.tmp
