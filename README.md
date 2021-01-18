@@ -1,14 +1,17 @@
 #写在前面
+
 This project is based on http://gitorious.org/rockchip-android/tools
 build required: git， gcc， libssl-dev（for md5 checksum）  
 apt-get install  git gcc libssl-dev
 
 ##使用方法:
+
 git clone https://github.com/Mark4551124015/rk3328_tools.git
 cd rk3328_tools
 bash setup.sh
 
 ##工具:
+
 img_unpack  固件新格式转旧格式   
 img_maker	固件旧格式打包成新格式  
 afptool		旧格式固件打包解包工具  
